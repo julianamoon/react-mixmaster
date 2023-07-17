@@ -1,0 +1,199 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* variables */
+:root {
+  --primary-color: #d2b77f;
+  --secondary-color: #c1c1c1;
+  --dark-color: #111118;
+}
+
+/* global styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: capitalize;
+  font-family: "Abril Fatface", cursive;
+}
+
+/* form settings */
+.form {
+  border: 1.5px solid black;
+  width: 400px;
+  padding: 20px;
+  margin: 40px auto;
+}
+.form-h4 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.form-row {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+.form-label {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+.form-label::after {
+  content: ":";
+}
+.form-input {
+  padding: 2px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid;
+}
+.btn-submit {
+  margin: 2rem auto;
+  background: black;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 5px 15px;
+  display: block;
+  transform: translateY(20px);
+}
